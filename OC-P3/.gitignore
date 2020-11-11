@@ -1,0 +1,8 @@
+#Environments
+.env
+venv
+.idea
+
+p2-arbres-fr.csv
+fr.openfoodfacts.org.products.csv
+dataset fields.txt
