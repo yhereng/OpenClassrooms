@@ -6,4 +6,4 @@ venv
 p2-arbres-fr.csv
 fr.openfoodfacts.org.products.csv
 dataset fields.txt
-opendfoodfact_clean.csv
+openfoodfact_clean.csv
