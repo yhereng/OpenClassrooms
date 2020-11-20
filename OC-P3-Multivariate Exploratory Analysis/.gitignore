@@ -3,9 +3,4 @@
 venv
 .idea
 
-p2-arbres-fr.csv
-fr.openfoodfacts.org.products.csv
-dataset fields.txt
-openfoodfact_clean.csv
-openfoodfact_clean2.csv
-fooddata_imputed.cv
+data
