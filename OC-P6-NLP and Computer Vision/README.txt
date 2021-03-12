@@ -1,5 +1,6 @@
 ****************************************************************
-Project 5 - Marketing Clustering
+Project 6 - NLP and Computer Vision
 ****************************************************************
-Goal: Provide marketing team with a actionable customer clustering based on
-customer buying habits
+Goal: Preprocessing unstructured data using Bag of word technics
+Use CNN algorithms for image classification
+Transfer learning on VGG-16
