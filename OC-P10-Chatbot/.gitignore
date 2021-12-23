@@ -1,0 +1,8 @@
+#Environments
+.env
+venv
+.idea
+
+Data
+.ipynb_checkpoints
+utterances_test.json

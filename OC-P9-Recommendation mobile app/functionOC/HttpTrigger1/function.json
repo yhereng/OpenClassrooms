@@ -1,0 +1,31 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "in",
+      "name": "inputDocument",
+      "databaseName": "Reco",
+      "collectionName": "Container1",
+      "connectionStringSetting": "dbp9_DOCUMENTDB",
+      "sqlQuery": "SELECT * from c where c.id=tostring({userId})",
+      "partitionKey": "undefined"
+      
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+#Environments
+.env
+venv
+.idea
+
+urls.txt
+x_test.txt
+x_train.txt
+y_test.txt
+y_train.txt
